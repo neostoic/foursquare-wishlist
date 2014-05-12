@@ -8,4 +8,12 @@ class VenuesController < ApplicationController
     venue.name = params[:name]
     venue.save
   end
+
+  def destroy
+    @venue = Venue.find(params[:id])
+    @venue.destroy
+    respond_to do |format|
+      format.js
+    end
+  end
 end
