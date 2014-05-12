@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="4253728797">
+    <data-source source="LOCAL" name="Rails wishlister: development" uuid="89180535-ff52-4c19-9ae7-93a8a39f2dda">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:wishlister</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfdcdfcfdfc6dfcfdfd8dfc3dfc4dfcd</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails wishlister: test" uuid="97a731cc-6ea6-4b12-9d22-b5a3832150b7">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:wishlister</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfdcdfcfdfc6dfcfdfd8dfc3dfc4dfcd</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails wishlister: wishlister" uuid="dd3ad717-5a89-4830-8e13-b78271b30820">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:wishlister</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfdcdfcfdfc6dfcfdfd8dfc3dfc4dfcd</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
