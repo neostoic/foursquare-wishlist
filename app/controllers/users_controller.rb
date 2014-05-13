@@ -16,8 +16,8 @@ class UsersController < ApplicationController
   end
 
   def home
-    #@checkins = recent_checkins(current_user.oauth_token)
     checkins = Checkins.get_recent(current_user.oauth_token)
+    @wishlist_items = current_user.wishlist.venues
     @list_items = get_users_and_venues(checkins)
   end
 

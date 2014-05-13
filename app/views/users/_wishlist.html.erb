@@ -1,0 +1,8 @@
+<% if @wishlist_items.nil? %>
+    Add venues to your wishlist
+<% else %>
+    <% @wishlist_items.each do |item| %>
+        <p><%= image_tag(item.photo, :alt => item.name, :title => item.name) %></p>
+        <%= link_to "Remove", item, :method => :delete, :remote => true %>
+    <% end %>
+<% end %>

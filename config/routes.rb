@@ -12,7 +12,7 @@ Wishlister::Application.routes.draw do
 
   get "users/home", as: 'users_home'
 
-  resources :venues, :only => [:create]
+  resources :venues, :only => [:create, :destroy]
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

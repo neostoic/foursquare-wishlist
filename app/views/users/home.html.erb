@@ -1,9 +1,12 @@
 <h1><%= current_user.name %></h1>
+<p>Wishlist:</p>
+-----------------------------------------------------------------------------
+<div id="wishlist-container">
+    <%= render partial: 'wishlist' %>
+</div>
 <p>Checkins:</p>
-<% @list_items.each do |item| %>
-    ---------------------------------------------------
-    <p><%= image_tag(item.user_photo, :alt => item.user_name, :title => item.user_name) %></p>
-    <p><%= image_tag(item.venue_photo, :alt => item.venue_name, :title => item.venue_name) %></p>
-    <%= link_to "Add", venues_path(:fs_id => item.venue_id, :photo => item.venue_photo, :name => item.venue_name), :method => :post %>
-<% end %>
+<div id="list-container">
+  <%= render partial: 'list' %>
+</div>
+
 <%= link_to 'Logout', signout_path %>
