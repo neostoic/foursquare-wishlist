@@ -1,10 +1,6 @@
 class VenuesController < ApplicationController
 
   def create
-    if current_user.wishlist.nil?
-      current_user.build_wishlist
-      current_user.save
-    end
     @venue = Venue.new(
         :fs_id => params[:fs_id],
         :photo => params[:photo],

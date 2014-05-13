@@ -1,4 +1,11 @@
-<h1><%= current_user.name %></h1>
+<div class="header-menu-padding">
+  <div class="text-right">
+    <div class="text-user-name">
+      <%= current_user.name %>
+      <%= image_tag(current_user.photo) %>
+    </div>
+  </div>
+</div>
 <p>Wishlist:</p>
 -----------------------------------------------------------------------------
 <div id="wishlist-container">
@@ -8,5 +15,3 @@
 <div id="list-container">
   <%= render partial: 'list' %>
 </div>
-
-<%= link_to 'Logout', signout_path %>
