@@ -6,3 +6,5 @@
         <%= link_to "Add", venues_path(:fs_id => item.venue_id, :photo => item.venue_photo, :name => item.venue_name), :method => :post, :remote => true %>
     </div>
 <% end %>
+
+<%= paginate @list_items %>

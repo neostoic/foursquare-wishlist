@@ -15,13 +15,14 @@ class UsersController < ApplicationController
   end
 
   def home
+    @wishlist_items = Kaminari.paginate_array(current_user.wishlist.venues).page(params[:page]).per(3)
     checkins = Checkins.get_recent(current_user.oauth_token)
-    @wishlist_items = current_user.wishlist.venues
-    @list_items = get_list_items(remove_repeated(checkins))
+    list = get_list_items_from_checkins(remove_wishlist_items(checkins))
+    @list_items = Kaminari.paginate_array(list).page(params[:page]).per(3)
   end
 
   private
-  def get_list_items(checkins)
+  def get_list_items_from_checkins(checkins)
     pictures = checkins.map do |ch|
       venue_photo = FSVenues.get_photo(ch.venue_id, current_user.oauth_token)
       ListItem.new(
@@ -31,7 +32,7 @@ class UsersController < ApplicationController
     end
   end
 
-  def remove_repeated(checkins)
+  def remove_wishlist_items(checkins)
     checkins = checkins.delete_if { |ch|
       in_wishlist = @wishlist_items.any? { |item| item.fs_id == ch.venue_id }
     }

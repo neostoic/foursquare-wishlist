@@ -30,6 +30,8 @@ gem 'jbuilder', '~> 1.2'
 gem 'httparty'
 gem 'omniauth-foursquare', :git => 'https://github.com/arunagw/omniauth-foursquare.git'
 
+gem 'kaminari'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
