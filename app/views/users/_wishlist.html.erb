@@ -1,11 +1,23 @@
 <% if @wishlist_items.nil? || @wishlist_items.empty? %>
     Add venues to your wishlist
 <% else %>
+    <div class="row">
     <% @wishlist_items.each do |item| %>
-        <p><%= image_tag(item.photo, :alt => item.name, :title => item.name) %></p>
-        <%= item.name %>
-        <%= link_to "Remove", item, :method => :delete, :remote => true %>
+          <div class="col-sm-3 col-md-3">
+            <div class="thumbnail">
+                <%= image_tag(item.photo, :alt => item.name, :title => item.name) %>
+              <div class="caption">
+                <p>
+                  <div class="row">
+                    <div class="col-md-7 text-right"><%= item.name %></div>
+                    <div class="col-md-5"><%= link_to "Remove", item, :method => :delete, :class => "btn btn-primary", :remote => true %></div>
+                  </div>
+                </p>
+              </div>
+            </div>
+          </div>
     <% end %>
+    </div>
 
     <%= paginate @wishlist_items %>
 

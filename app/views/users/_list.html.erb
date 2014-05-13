@@ -1,11 +1,19 @@
+<div class="row">
 <% @list_items.each do |item| %>
-    <div id="<%= item.venue_id %>">
-        ---------------------------------------------------
-        <p><%= image_tag(item.user_photo, :alt => item.user_name, :title => item.user_name) %></p>
-        <p><%= image_tag(item.venue_photo, :alt => item.venue_name, :title => item.venue_name) %></p>
-        <%= item.venue_name %>
-        <%= link_to "Add", venues_path(:fs_id => item.venue_id, :photo => item.venue_photo, :name => item.venue_name), :method => :post, :remote => true %>
+  <div class="col-sm-4 col-md-3">
+    <div class="thumbnail">
+      <%= image_tag(item.venue_photo, :alt => item.venue_name, :title => item.venue_name) %>
+      <div class="caption">
+        <p>
+          <div class="row">
+            <div class="col-lg-8 text-right"><%= item.venue_name %></div>
+            <div class="col-md-4"><%= link_to "Add", venues_path(:fs_id => item.venue_id, :photo => item.venue_photo, :name => item.venue_name), :class => "btn btn-primary", :method => :post, :remote => true %></div>
+          </div>
+        </p>
+      </div>
     </div>
+  </div>
 <% end %>
+</div>
 
 <%= paginate @list_items %>

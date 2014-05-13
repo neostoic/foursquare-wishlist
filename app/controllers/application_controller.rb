@@ -4,7 +4,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   private
-  def get_paginated_wishlist(array,num)
+  def get_paginated_list(array,num)
     Kaminari.paginate_array(array).page(params[:page]).per(num) if array
   end
 

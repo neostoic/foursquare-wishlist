@@ -8,7 +8,7 @@ class VenuesController < ApplicationController
         :wishlist_id => current_user.wishlist.id
     )
     @venue.save
-    @wishlist_items = get_paginated_wishlist(current_user.wishlist.venues, 3)
+    @wishlist_items = get_paginated_list(current_user.wishlist.venues, 4)
 
     respond_to do |format|
       format.js
@@ -19,7 +19,7 @@ class VenuesController < ApplicationController
   def destroy
     @venue = current_user.wishlist.venues.find(params[:id])
     @venue.destroy
-    @wishlist_items = get_paginated_wishlist(current_user.wishlist.venues, 3)
+    @wishlist_items = get_paginated_list(current_user.wishlist.venues, 4)
 
     respond_to do |format|
       format.js
