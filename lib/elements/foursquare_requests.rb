@@ -1,7 +1,5 @@
 module FoursquareRequests
-  include HTTParty
 
-  #base_uri "https://api.foursquare.com/v2"
   FS_VERSION = 20140510
 
   module Checkins
@@ -35,22 +33,6 @@ module FoursquareRequests
     end
   end
 
-  #module FSUsers
-  #
-  #  include HTTParty
-  #
-  #  def self.get_fs_data(user_id,token)
-  #    response = get("https://api.foursquare.com/v2/users/#{user_id}?oauth_token=#{token}&v=#{FS_VERSION}")
-  #    if response.success?
-  #      prefix = response['response']['user']['photo']['prefix']
-  #      suffix = response['response']['user']['photo']['suffix']
-  #      photo_uri = prefix + '30x30' + suffix
-  #    else
-  #      raise response.response
-  #    end
-  #  end
-  #end
-
   module FSVenues
 
     include HTTParty
@@ -66,15 +48,5 @@ module FoursquareRequests
       end
     end
   end
-
-  #
-  #def get_user_friends(user_id)
-  #  response = get("https://api.foursquare.com/v2/users/#{user_id}")
-  #  if response.success?
-  #    friends = response.friends.groups.items.map { |friend| [friend.id, friend.photo] }
-  #  else
-  #    raise response.response
-  #  end
-  #end
 
 end

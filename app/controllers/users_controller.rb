@@ -1,7 +1,6 @@
 class UsersController < ApplicationController
 
   include FoursquareRequests
-  include HTTParty
 
   class ListItem
     attr_accessor :user_photo, :user_name, :venue_id, :venue_name, :venue_photo

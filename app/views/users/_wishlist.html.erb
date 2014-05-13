@@ -1,4 +1,4 @@
-<% if @wishlist_items.nil? %>
+<% if @wishlist_items.nil? || @wishlist_items.empty? %>
     Add venues to your wishlist
 <% else %>
     <% @wishlist_items.each do |item| %>
