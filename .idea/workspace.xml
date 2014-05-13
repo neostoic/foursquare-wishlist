@@ -12,7 +12,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/wishlister@Development__wishlister.coverage" NAME="Development: wishlister Coverage Results" MODIFIED="1399996134297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="wishlister" />
+    <SUITE FILE_PATH="coverage/wishlister@Development__wishlister.coverage" NAME="Development: wishlister Coverage Results" MODIFIED="1399999651355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="wishlister" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -30,15 +30,6 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/venues_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="10" column="36" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="525">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.min.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/bootstrap.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="1" selection-start="97650" selection-end="97650" vertical-scroll-proportion="0.0" vertical-offset="154" max-vertical-offset="525">
               <folding />
             </state>
           </provider>
@@ -65,7 +56,7 @@
       <file leaf-file-name="_list.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/users/_list.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="43" selection-start="317" selection-end="317" vertical-scroll-proportion="0.33753943" vertical-offset="13" max-vertical-offset="360">
+            <state line="4" column="28" selection-start="167" selection-end="167" vertical-scroll-proportion="0.14826499" vertical-offset="13" max-vertical-offset="360">
               <folding />
             </state>
           </provider>
@@ -793,7 +784,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/_list.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="43" selection-start="317" selection-end="317" vertical-scroll-proportion="0.33753943" vertical-offset="13" max-vertical-offset="360">
+        <state line="4" column="28" selection-start="167" selection-end="167" vertical-scroll-proportion="0.14826499" vertical-offset="13" max-vertical-offset="360">
           <folding />
         </state>
       </provider>

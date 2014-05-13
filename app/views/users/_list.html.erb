@@ -1,6 +1,6 @@
 <div class="row">
 <% @list_items.each do |item| %>
-  <div class="col-sm-4 col-md-3">
+  <div id="<%= item.venue_id %>" class="col-sm-4 col-md-3">
     <div class="thumbnail">
       <%= image_tag(item.venue_photo, :alt => item.venue_name, :title => item.venue_name) %>
       <div class="caption">
