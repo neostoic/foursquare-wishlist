@@ -12,7 +12,7 @@ class VenuesController < ApplicationController
         :wishlist_id => current_user.wishlist.id
     )
     @venue.save
-    @wishlist_items = Kaminari.paginate_array(current_user.wishlist.venues).page(params[:page]).per(3)
+    @wishlist_items = get_paginated_wishlist(current_user.wishlist.venues, 3)
 
     respond_to do |format|
       format.js
@@ -23,9 +23,12 @@ class VenuesController < ApplicationController
   def destroy
     @venue = current_user.wishlist.venues.find(params[:id])
     @venue.destroy
-    @wishlist_items = Kaminari.paginate_array(current_user.wishlist.venues).page(params[:page]).per(3)
+    @wishlist_items = get_paginated_wishlist(current_user.wishlist.venues, 3)
+
     respond_to do |format|
       format.js
     end
+
   end
+
 end

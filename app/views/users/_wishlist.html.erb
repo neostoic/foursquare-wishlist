@@ -3,9 +3,10 @@
 <% else %>
     <% @wishlist_items.each do |item| %>
         <p><%= image_tag(item.photo, :alt => item.name, :title => item.name) %></p>
+        <%= item.name %>
         <%= link_to "Remove", item, :method => :delete, :remote => true %>
     <% end %>
 
     <%= paginate @wishlist_items %>
-    
+
 <% end %>

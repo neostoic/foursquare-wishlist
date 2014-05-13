@@ -14,8 +14,6 @@ class SessionsController < ApplicationController
   def login
     if current_user
       redirect_to users_home_path
-    else
-      flash[:notice] = "Please login"
     end
   end
 

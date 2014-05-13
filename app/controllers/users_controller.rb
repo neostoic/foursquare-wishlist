@@ -15,7 +15,7 @@ class UsersController < ApplicationController
   end
 
   def home
-    @wishlist_items = Kaminari.paginate_array(current_user.wishlist.venues).page(params[:page]).per(3)
+    @wishlist_items = get_paginated_wishlist(current_user.wishlist.venues, 3)
     checkins = Checkins.get_recent(current_user.oauth_token)
     list = get_list_items_from_checkins(remove_wishlist_items(checkins))
     @list_items = Kaminari.paginate_array(list).page(params[:page]).per(3)
