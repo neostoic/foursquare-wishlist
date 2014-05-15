@@ -26,37 +26,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="users_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <file leaf-file-name="user_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="31" selection-start="527" selection-end="537" vertical-scroll-proportion="0.0" vertical-offset="233" max-vertical-offset="690">
+            <state line="0" column="0" selection-start="0" selection-end="376" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sessions_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
+      <file leaf-file-name="venue_spec.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/models/venue_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="57" selection-start="140" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+            <state line="15" column="35" selection-start="366" selection-end="366" vertical-scroll-proportion="0.3820034" vertical-offset="0" max-vertical-offset="589">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <file leaf-file-name="wishlist_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/models/wishlist_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="4" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+            <state line="20" column="48" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="foursquare_requests.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/elements/foursquare_requests.rb">
+      <file leaf-file-name="venues.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/factories/venues.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="69" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.8394366" vertical-offset="167" max-vertical-offset="870">
+            <state line="7" column="3" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20140512031657_create_venues.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20140512031657_create_venues.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wishlist.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/wishlist.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="2" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wishlists.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/factories/wishlists.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="3" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
               <folding />
             </state>
           </provider>
@@ -65,7 +92,7 @@
       <file leaf-file-name="_list.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/_list.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="28" selection-start="167" selection-end="167" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="360">
+            <state line="4" column="28" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="360">
               <folding />
             </state>
           </provider>
@@ -74,7 +101,7 @@
       <file leaf-file-name="_wishlist.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/_wishlist.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="20" selection-start="437" selection-end="437" vertical-scroll-proportion="-2.0" vertical-offset="117" max-vertical-offset="435">
+            <state line="11" column="20" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0" vertical-offset="117" max-vertical-offset="435">
               <folding />
             </state>
           </provider>
@@ -102,7 +129,6 @@
         <option value="$PROJECT_DIR$/lib/logged_in_constraint.rb" />
         <option value="$PROJECT_DIR$/lib/foursquare_requests.rb" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
-        <option value="$PROJECT_DIR$/app/models/venue.rb" />
         <option value="$PROJECT_DIR$/app/views/venues/create.js" />
         <option value="$PROJECT_DIR$/app/views/users/wishlist.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20140512124152_add_wishlist_id_to_venues.rb" />
@@ -119,7 +145,6 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/vendor/assets/stylesheets/bootstrap.css" />
         <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/wishlist.rb" />
         <option value="$PROJECT_DIR$/app/views/users/home.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/vendor/assets/stylesheets/bootstrap.min.css" />
@@ -129,6 +154,16 @@
         <option value="$PROJECT_DIR$/app/controllers/venues_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/lib/elements/foursquare_requests.rb" />
+        <option value="$PROJECT_DIR$/factories/wishlists.rb" />
+        <option value="$PROJECT_DIR$/factories/users.rb" />
+        <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/factories/users.rb" />
+        <option value="$PROJECT_DIR$/app/models/wishlist.rb" />
+        <option value="$PROJECT_DIR$/spec/factories/wishlists.rb" />
+        <option value="$PROJECT_DIR$/spec/factories/venues.rb" />
+        <option value="$PROJECT_DIR$/spec/models/wishlist_spec.rb" />
+        <option value="$PROJECT_DIR$/app/models/venue.rb" />
+        <option value="$PROJECT_DIR$/spec/models/venue_spec.rb" />
       </list>
     </option>
   </component>
@@ -200,7 +235,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="spec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -214,25 +249,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="spec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="elements" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wishlister" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wishlister" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -249,8 +270,22 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="wishlister" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wishlister" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -272,13 +307,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spec/factories" />
+      <recent name="$PROJECT_DIR$/factories" />
       <recent name="$PROJECT_DIR$/app/views/users" />
       <recent name="$PROJECT_DIR$/app/views/venues" />
       <recent name="$PROJECT_DIR$/lib" />
-      <recent name="$PROJECT_DIR$/app/assets/javascripts" />
-      <recent name="$PROJECT_DIR$/app/views/sessions" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spec/factories" />
       <recent name="$PROJECT_DIR$/lib/elements" />
       <recent name="$PROJECT_DIR$/app/views/sessions" />
       <recent name="$PROJECT_DIR$/app/views/static" />
@@ -452,14 +488,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23505977" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2430279" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36335403" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -493,40 +529,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="60" selection-start="962" selection-end="962" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="525" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/sessions/login.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="59" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="11" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="14" selection-start="818" selection-end="818" vertical-scroll-proportion="0.0" vertical-offset="173" max-vertical-offset="945">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/elements/foursquare_requests.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="285" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="53" max-vertical-offset="375" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="165">
@@ -622,9 +624,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140512124152_add_wishlist_id_to_venues.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="3" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <folding />
-        </state>
+        <state line="4" column="3" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
@@ -644,13 +644,6 @@
         <state line="26" column="60" selection-start="962" selection-end="962" vertical-scroll-proportion="0.6017699" vertical-offset="186" max-vertical-offset="525" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140512031657_create_venues.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/venues/create.js.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="6" selection-start="102" selection-end="102" vertical-scroll-proportion="0.04761905" vertical-offset="0" max-vertical-offset="315" />
@@ -659,13 +652,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/venues/destroy.js.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="95" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="923" selection-end="923" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="975">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
@@ -700,28 +686,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140508104458_create_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="314">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/venue.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="22" selection-start="55" selection-end="55" vertical-scroll-proportion="0.037783377" vertical-offset="0" max-vertical-offset="397" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="26" selection-start="313" selection-end="313" vertical-scroll-proportion="0.59016395" vertical-offset="0" max-vertical-offset="315" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/wishlist.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="98" selection-end="98" vertical-scroll-proportion="0.12711865" vertical-offset="0" max-vertical-offset="354">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
@@ -736,23 +703,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/_list.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="28" selection-start="167" selection-end="167" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="360">
+        <state line="4" column="28" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="360">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="40" selection-start="287" selection-end="287" vertical-scroll-proportion="0.17826825" vertical-offset="0" max-vertical-offset="589">
-          <folding />
-        </state>
+        <state line="7" column="40" selection-start="287" selection-end="287" vertical-scroll-proportion="0.17826825" vertical-offset="0" max-vertical-offset="589" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/venues_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="7" selection-start="380" selection-end="380" vertical-scroll-proportion="0.33106962" vertical-offset="0" max-vertical-offset="589">
-          <folding />
-        </state>
+        <state line="13" column="7" selection-start="380" selection-end="380" vertical-scroll-proportion="0.33106962" vertical-offset="0" max-vertical-offset="589" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
@@ -771,21 +734,96 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/_wishlist.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="20" selection-start="437" selection-end="437" vertical-scroll-proportion="-2.0" vertical-offset="117" max-vertical-offset="435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="4" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+        <state line="11" column="20" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0" vertical-offset="117" max-vertical-offset="435">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/elements/foursquare_requests.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="69" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.8394366" vertical-offset="167" max-vertical-offset="870">
+        <state line="31" column="69" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.0" vertical-offset="167" max-vertical-offset="870" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="923" selection-end="923" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="6" selection-start="192" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140508104458_create_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="314">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/factories/users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="376" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/wishlist.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="2" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/factories/wishlists.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="3" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140512031657_create_venues.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/factories/venues.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="3" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/wishlist_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="48" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/venue.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="2" selection-start="96" selection-end="96" vertical-scroll-proportion="0.10638298" vertical-offset="0" max-vertical-offset="564">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/venue_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="35" selection-start="366" selection-end="366" vertical-scroll-proportion="0.3820034" vertical-offset="0" max-vertical-offset="589">
           <folding />
         </state>
       </provider>
