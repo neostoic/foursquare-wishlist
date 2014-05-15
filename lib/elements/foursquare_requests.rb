@@ -27,9 +27,10 @@ module FoursquareRequests
           venue_name = ch['venue']['name']
           FSCheckin.new(user_name, user_photo, venue_id, venue_name)
         end
-      else
-        raise response.response
       end
+    rescue => e
+      Rails.logger.error { "#{e.message} #{e.backtrace.join("\n")}" }
+      nil
     end
   end
 

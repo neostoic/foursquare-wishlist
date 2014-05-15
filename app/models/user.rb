@@ -12,5 +12,8 @@ class User < ActiveRecord::Base
       user.build_wishlist
       user.save!
     end
+  rescue => e
+    Rails.logger.error { "#{e.message} #{e.backtrace.join("\n")}" }
+    nil
   end
 end
